@@ -1,11 +1,11 @@
-const CACHE_NAME = 'my-site-cache-v3';
+const CACHE_NAME = 'budget-track-cache-v3';
 const DATA_CACHE_NAME = 'data-cache-v3';
 
 const FILES_TO_CACHE = [
     '/',
     '/index.html',
     '/manifest.json',
-    '/css/style.css',
+    '/css/styles.css',
     '/js/idb.js',
     '/js/index.js',
     '/icons/icon-72x72.png',

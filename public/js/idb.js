@@ -4,7 +4,6 @@ const request = indexedDB.open('budget_track', 1);
 
 // this event will emit if the database version changes (nonexistant to version 1, v1 to v2, etc.)
 request.onupgradeneeded = function(event) {
-    // save a reference to the database 
     const db = event.target.result;
     db.createObjectStore('new_budget', { autoIncrement: true });
 };
@@ -22,7 +21,6 @@ request.onerror = function (event) {
 };
 
 function saveRecord(record) {
-    // open a new transaction with the database with read and write permissions 
     const transaction = db.transaction(['new_budget'], 'readwrite');
 
     const budgetObjectStore = transaction.objectStore('new_budget');
