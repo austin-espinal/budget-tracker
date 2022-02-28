@@ -2,7 +2,7 @@
 
 ## Description 
 
-This project was created to allow a user to create a budget and track deposits and withdrawals. It is a great app to use while traveling as it can be used offline. This project uses javascript, node, mongoDB, html, and css.
+This project was created to allow a user to create a budget and track deposits and withdrawals. It is a great app to use while traveling as it can be used offline. This project uses javascript, node, mongoDB, html, and css. 
 
 ![Budget Tracker](/public/budget-tracker.png)
 
